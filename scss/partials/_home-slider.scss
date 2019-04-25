@@ -1,0 +1,83 @@
+$dark-grey: #78797B;
+
+.carousel {
+  background: $white;
+}
+
+.carousel-cell {
+  width: 80%;
+  height: 560px;
+  /* flex-box, center image in cell */
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.carousel-cell img {
+  display: block;
+  max-width: 80%;
+  max-height: 120%;
+  /* dim unselected */
+  opacity: 0.7;
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s, transform 0.3s, -webkit-filter 0.3s, filter 0.3s;
+  transition: opacity 0.3s, transform 0.3s, filter 0.3s;
+}
+
+/* brighten selected image */
+.carousel-cell.is-selected img {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-filter: none;
+  filter: none;
+}
+
+/* buttons, no circle */
+.flickity-prev-next-button {
+  width: 60px;
+  height: 60px;
+  background: transparent;
+  opacity: 0.6;
+}
+
+.flickity-prev-next-button:hover {
+  background: transparent;
+  opacity: 1;
+}
+
+/* arrow color */
+.flickity-prev-next-button .arrow {
+  fill: $dark-grey;
+}
+
+.flickity-prev-next-button.no-svg {
+  color: $dark-grey;
+}
+
+/* closer to edge */
+.flickity-prev-next-button.previous {
+  left: 0;
+}
+
+.flickity-prev-next-button.next {
+  right: 0;
+}
+
+/* hide disabled button */
+.flickity-prev-next-button:disabled {
+  display: none;
+}
+
+// dots //
+.flickity-page-dots {
+    display: none;
+}

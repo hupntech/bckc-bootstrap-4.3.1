@@ -1,0 +1,83 @@
+// PARTIALS //
+@import "../scss/partials/gallery";
+@import "../scss/partials/home-slider";
+
+
+
+// COLOR VARIABLES //
+$orange: #FF9900;
+$grey: #818285;
+$dark-grey: #78797B;
+$light-grey: #b3b3b3;
+$light-grey-2: #e6e6e6;
+$darker-grey:#A9A9A9;
+$grey-variant: #DFE1E0;
+$white: #F3F3F3;
+$copper-red: #b87333;
+$gold: #DAA45C;
+$goldish: #FFF4CA;
+$orangish: #D46E50;
+$yellow-var:#F0DDB3;
+$brown: #403A34;
+$brown-var: #6D5546;
+$black: #2A2827;
+$blue: #00B8CA;
+
+
+// Mixin //
+$prefix:'-moz-',
+'-webkit-',
+'-o-',
+'-ms-',
+'';
+
+// ********************
+// fadeIn
+// ********************
+@mixin keyframe-fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    @include keyframe-fadeIn;
+}
+
+@-webkit-keyframes fadeIn {
+    @include keyframe-fadeIn;
+}
+
+@-o-keyframes fadeIn {
+    @include keyframe-fadeIn;
+}
+
+@-ms-keyframes fadeIn {
+    @include keyframe-fadeIn;
+}
+
+@keyframes fadeIn {
+    @include keyframe-fadeIn;
+}
+
+@mixin fadeIn($arg) {
+    $keyframe-name: fadeIn;
+    $duration: $arg;
+
+    @each $p in $prefix {
+        #{$p}animation: $keyframe-name $duration;
+    }
+}
+
+body {
+    @include fadeIn(1s);
+}
+
+
+
+
+

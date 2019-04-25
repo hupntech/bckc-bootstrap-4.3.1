@@ -1,0 +1,149 @@
+
+// COLORS //
+$grey-variant: #DFE1E0;
+$light-grey: #b3b3b3;
+$light-grey-2: #e6e6e6;
+$goldish: #FFF4CA;
+
+.img-gallery-options {
+    padding: 1rem;
+    
+    #wellsgreen-img {
+        background: url('https://res.cloudinary.com/hsi/image/upload/v1554516725/BCKC/Wellsgreen/5634_Wellsgreen_Place_BCKC_COJP_07.jpg') center no-repeat;
+        box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+        display: flex;
+        background-size: cover;
+        height: 580px;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #carol-img {
+        background: url('https://res.cloudinary.com/hsi/image/upload/v1554514657/BCKC/Carol/Carol--004-resized.jpg') center no-repeat;
+        box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+        display: flex;
+        background-size: cover;
+        height: 580px;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #epping-img {
+        background: url('https://res.cloudinary.com/hsi/image/upload/v1554514729/BCKC/Epping/epping-ct-3850-2-15-resized.jpg') center no-repeat;
+        box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+        display: flex;
+        background-size: cover;
+        height: 580px;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #keith-img {
+        background: url('https://res.cloudinary.com/hsi/image/upload/v1554515411/BCKC/Keith/Keith--003.jpg') center no-repeat;
+        box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+        display: flex;
+        background-size: cover;
+        height: 580px;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #willoughby-img {
+        background: url('https://res.cloudinary.com/hsi/image/upload/v1554517237/BCKC/Willoughby/86a_Langley--004.jpg') center no-repeat;
+        box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+        display: flex;
+        background-size: cover;
+        height: 580px;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #langley-img {
+        background: url('https://res.cloudinary.com/hsi/image/upload/v1554517453/BCKC/Langley/Paroo--003.jpg') center no-repeat;
+        box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+        display: flex;
+        background-size: cover;
+        height: 580px;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #northvan-img {
+        background: url('https://res.cloudinary.com/hsi/image/upload/v1554516051/BCKC/NorthVan/Cliff--003.jpg') center no-repeat;
+        box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+        display: flex;
+        background-size: cover;
+        height: 580px;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #norbury-img {
+        background: url('https://res.cloudinary.com/hsi/image/upload/v1554515860/BCKC/Norbury/04.jpg') center no-repeat;
+        box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+        display: flex;
+        background-size: cover;
+        height: 580px;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+    }
+    #btn-popup-northvan {
+        background:transparent;
+        font-size: 2.5em;
+        font-weight: bold;
+        font-family: "Raleway";
+        letter-spacing: 1rem;
+        text-decoration: none;
+        color: $goldish;
+        text-align: center;
+        padding: 10px;
+        border: 4px solid $white;
+        height: 120px;
+        width: 70%;
+    &:hover {
+        transition: all 0.8s ease;
+        background: rgba(0, 0, 0, 0.6);
+        opacity: 1;
+    }
+    }
+    #btn-popup-carol,
+    #btn-popup-epping,
+    #btn-popup-keith,
+    #btn-popup-langley,
+    #btn-popup-wellsgreen,
+    #btn-popup-willoughby,
+    #btn-popup-norbury,
+        {
+        background:transparent;
+        font-size: 2.5em;
+        font-weight: bold;
+        font-family: "Raleway";
+        letter-spacing: 1rem;
+        text-decoration: none;
+        color: $goldish;
+        height: 90px;
+        text-align: center;
+        padding: 10px;
+        border: 4px solid $white;
+        &:hover {
+            transition: all 0.8s ease;
+            background: rgba(0, 0, 0, 0.6);
+            opacity: 1;
+        }
+    }
+}
+
+         
+
+
+
+
+
