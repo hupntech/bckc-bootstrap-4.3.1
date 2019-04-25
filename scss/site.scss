@@ -1,16 +1,12 @@
 // PARTIALS //
 @import "../scss/partials/gallery";
-@import "../scss/partials/home-slider";
-
+@import "../scss/partials/home";
 
 
 // COLOR VARIABLES //
-$orange: #FF9900;
-$grey: #818285;
 $dark-grey: #78797B;
 $light-grey: #b3b3b3;
 $light-grey-2: #e6e6e6;
-$darker-grey:#A9A9A9;
 $grey-variant: #DFE1E0;
 $white: #F3F3F3;
 $copper-red: #b87333;
@@ -21,7 +17,7 @@ $yellow-var:#F0DDB3;
 $brown: #403A34;
 $brown-var: #6D5546;
 $black: #2A2827;
-$blue: #00B8CA;
+
 
 
 // Mixin //
@@ -76,6 +72,10 @@ $prefix:'-moz-',
 body {
     @include fadeIn(1s);
 }
+
+
+
+
 
 
 

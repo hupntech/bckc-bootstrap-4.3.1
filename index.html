@@ -18,7 +18,7 @@
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link
-    href="https://fonts.googleapis.com/css?family=Cutive|Playfair+Display|Raleway|PT+Sans|Suez+One|Italianno|Italiana|Vesper+Libre|Source+Sans+Pro|Cabin|Arvo|Josefin+Sans|Catamaran"
+    href="https://fonts.googleapis.com/css?family=Cinzel|Playfair+Display|Raleway|PT+Sans|Suez+One|Italianno|Italiana|Vesper+Libre|Source+Sans+Pro|Cabin|Arvo|Josefin+Sans|Catamaran"
     rel="stylesheet">
 
   <!-- CSS
@@ -44,13 +44,107 @@
 </head>
 
 <body>
-  <h1>Hello, world!</h1>
+    
+  <div class="jumbotron jumbotron-fluid mb-0">
+    <div class="container">
+      <div class="row justify-content-md-center">
+        <div class="col col-lg-2 pr-2">
+           <a href="http://bestchoicekitchencabinets.ca/">
+             <img class="brnd-img" src="assets/images/logo/bckc-tp.png" alt="Best Choice Kitchen Cabinet">
+           </a>
+        </div>
+        <div class="col col-lg-10 mt-4">
+          <h1 class="display-4 ml-n3" id="brnd-hdr">Best Choice Kitchen Cabinets</h1>
+        </div>
+    </div>
+  
+  </div>
+  </div>
 
+  <!-- NAVBAR -->
+  <ul class="nav justify-content-center nav-fill" id="sgl-bdr">
+    <li class="nav-item">
+      <a class="nav-link active" href="index.html">HOME</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="about-us.html">ABOUT US</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="services.html">SERVICES</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="gallery.html">GALLERY</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="contact-us.php">CONTACT US</a>
+    </li>
+  </ul>
 
+  <!-- HOME SLIDER -->
+    <main>
+      <div class="carousel js-flickity"
+        data-flickity='{"autoPlay": true, "contain":true, "wrapAround": true, "pauseAutoPlayOnHover":true, "draggable": false, "pageDots": false }'>
+        <div class="carousel-cell">
+          <img
+            src="https://res.cloudinary.com/hsi/image/upload/v1554516726/BCKC/Wellsgreen/5634_Wellsgreen_Place_BCKC_COJP_06.jpg"
+            alt="Wellsgreen" />
+        </div>
+        <div class="carousel-cell">
+          <img src="https://res.cloudinary.com/hsi/image/upload/v1554514657/BCKC/Carol/Carol--002-resize.jpg"
+            alt="Carol" />
+        </div>
+        <div class="carousel-cell">
+          <img src="https://res.cloudinary.com/hsi/image/upload/v1554514728/BCKC/Epping/epping-ct-3850-2-14-resized.jpg"
+            alt="Epping" />
+        </div>
+        <div class="carousel-cell">
+          <img src="https://res.cloudinary.com/hsi/image/upload/v1554515860/BCKC/Norbury/05.jpg" alt="Norbury" />
+        </div>
+        <div class="carousel-cell">
+          <img src="https://res.cloudinary.com/hsi/image/upload/v1554516051/BCKC/NorthVan/Cliff--003.jpg" alt="Cliff" />
+        </div>
+        <div class="carousel-cell">
+          <img src="https://res.cloudinary.com/hsi/image/upload/v1554515411/BCKC/Keith/Keith--003.jpg" alt="Keith" />
+        </div>
+        <div class="carousel-cell">
+          <img src="https://res.cloudinary.com/hsi/image/upload/v1554517453/BCKC/Langley/Paroo--003.jpg"
+            alt="Langley" />
+        </div>
+        <div class="carousel-cell">
+          <img src="https://res.cloudinary.com/hsi/image/upload/v1554517237/BCKC/Willoughby/86a_Langley--001.jpg"
+            alt="Willoughby" />
+        </div>
+      </div>
+    </main>
 
-
-
-
+    <!-- FOOTBAR -->
+    <ul class="nav justify-content-center nav-fill pt-3" id="sgl-bdr">
+      <li class="nav-item">
+        <p class="lead pt-1" id="brnd-hdr-ftr">
+          &copy; 2018 Best Choice Kitchen Cabinets
+        </p>
+      </li>
+      <li class="nav-item pt-1">
+        <a href="https://twitter.com/bestchoice2005" target="_blank">
+          <span><i class="fab fa-twitter"></i></span>
+        </a>
+      </li>
+      <li class="nav-item pt-1">
+         <a href="https://www.facebook.com/BestChoiceKitchenCabinets/" target="_blank">
+           <span><i class="fab fa-facebook"></i></span>
+         </a>
+      </li>
+      <li class="nav-item pt-1">
+        <a href="https://www.houzz.com/pro/bestchoicekitchencabinets/__public" target="_blank">
+          <span><i class="fab fa-houzz"></i></span>
+        </a>
+      </li>
+      <li class="nav-item pt-1">
+        <a href="https://www.instagram.com/bestchoicekitchen/" target="_blank">
+          <span><i class="fab fa-instagram"></i></span>
+        </a>
+      </li>
+    </ul>
 
 
   <!-- JavaScript -->
@@ -63,6 +157,8 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+  <script src="assets/jslibs/vendor/flickity.pkgd.min.js"></script>
 </body>
 
 </html>
