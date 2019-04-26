@@ -8,18 +8,18 @@ $white: #F3F3F3;
 $orange: #FF9900;
 
 .gallery {
-    padding: 1rem;
-    
+    padding: 2rem;
     #wellsgreen-img {
         background: url('https://res.cloudinary.com/hsi/image/upload/v1554516725/BCKC/Wellsgreen/5634_Wellsgreen_Place_BCKC_COJP_07.jpg') center no-repeat;
         box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
         border-radius: 12px;
         display: flex;
         background-size: cover;
-        height: 580px;
+        height: 680px;
         flex: 1;
         justify-content: center;
         align-items: center;
+        width: 650px;
     }
 
     #carol-img {
@@ -28,18 +28,21 @@ $orange: #FF9900;
         border-radius: 12px;
         display: flex;
         background-size: cover;
-        height: 580px;
+        height: 680px;
         flex: 1;
         justify-content: center;
         align-items: center;
+        width: 650px;
     }
 
     #epping-img {
         background: url('https://res.cloudinary.com/hsi/image/upload/v1554514729/BCKC/Epping/epping-ct-3850-2-15-resized.jpg') center no-repeat;
         box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+        border-radius: 12px;
         display: flex;
         background-size: cover;
-        height: 580px;
+        height: 680px;
+        width: 650px;
         flex: 1;
         justify-content: center;
         align-items: center;
@@ -48,9 +51,11 @@ $orange: #FF9900;
     #keith-img {
         background: url('https://res.cloudinary.com/hsi/image/upload/v1554515411/BCKC/Keith/Keith--003.jpg') center no-repeat;
         box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+        border-radius: 12px;
         display: flex;
         background-size: cover;
-        height: 580px;
+        height: 680px;
+        width: 650px;
         flex: 1;
         justify-content: center;
         align-items: center;
@@ -59,9 +64,11 @@ $orange: #FF9900;
     #willoughby-img {
         background: url('https://res.cloudinary.com/hsi/image/upload/v1554517237/BCKC/Willoughby/86a_Langley--004.jpg') center no-repeat;
         box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+        border-radius: 12px;
         display: flex;
         background-size: cover;
-        height: 580px;
+        height: 680px;
+        width: 650px;
         flex: 1;
         justify-content: center;
         align-items: center;
@@ -70,9 +77,11 @@ $orange: #FF9900;
     #langley-img {
         background: url('https://res.cloudinary.com/hsi/image/upload/v1554517453/BCKC/Langley/Paroo--003.jpg') center no-repeat;
         box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+        border-radius: 12px;
         display: flex;
         background-size: cover;
-        height: 580px;
+        height: 680px;
+        width: 650px;
         flex: 1;
         justify-content: center;
         align-items: center;
@@ -81,9 +90,11 @@ $orange: #FF9900;
     #northvan-img {
         background: url('https://res.cloudinary.com/hsi/image/upload/v1554516051/BCKC/NorthVan/Cliff--003.jpg') center no-repeat;
         box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+        border-radius: 12px;
         display: flex;
         background-size: cover;
-        height: 580px;
+        height: 680px;
+        width: 650px;
         flex: 1;
         justify-content: center;
         align-items: center;
@@ -93,9 +104,11 @@ $orange: #FF9900;
         background: url('https://res.cloudinary.com/hsi/image/upload/v1554515860/BCKC/Norbury/04.jpg') center no-repeat;
         box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
         border-radius: 12px;
+        border-radius: 12px;
         display: flex;
         background-size: cover;
-        height: 580px;
+        height: 680px;
+        width: 650px;
         flex: 1;
         justify-content: center;
         align-items: center;
@@ -112,7 +125,7 @@ $orange: #FF9900;
         text-align: center;
         padding: 10px;
         border: 4px solid $white;
-        height: 120px;
+        height: 140px;
         width: 70%;
     &:hover {
         transition: all 0.8s ease;

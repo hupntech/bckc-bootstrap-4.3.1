@@ -5,10 +5,6 @@ $("#btn-popup-wellsgreen").magnificPopup({
             title: "Wellsgreen Gallery Image 1"
         },
         {
-            src: "https://res.cloudinary.com/hsi/image/upload/v1554516726/BCKC/Wellsgreen/5634_Wellsgreen_Place_BCKC_COJP_09.jpg",
-            title: "Wellsgreen Gallery Image 2"
-        },
-        {
             src: "https://res.cloudinary.com/hsi/image/upload/v1554516726/BCKC/Wellsgreen/5634_Wellsgreen_Place_BCKC_COJP_01_1.jpg",
             title: "Wellsgreen Gallery Image 3"
         },
@@ -37,10 +33,9 @@ $("#btn-popup-wellsgreen").magnificPopup({
             title: "Wellsgreen Gallery Image 9"
         },
         {
-            src: "https://res.cloudinary.com/hsi/image/upload/v1554516723/BCKC/Wellsgreen/5634_Wellsgreen_Place_BCKC_COJP_05.jpg",
+            src: "https://res.cloudinary.com/hsi/image/upload/v1554516726/BCKC/Wellsgreen/5634_Wellsgreen_Place_BCKC_COJP_09.jpg",
             title: "Wellsgreen Gallery Image 10"
         },
-        
     ],
     gallery: {
         enabled: true
