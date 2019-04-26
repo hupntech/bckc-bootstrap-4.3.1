@@ -1,0 +1,21 @@
+// COLOR VARIABLES \\
+$black: #2A2827;
+
+.about-us {
+    #abt-us-hdg {
+        border-bottom:6px double $light-grey;
+        font-family: 'Cinzel';
+        text-align: center;
+        font-size: 50px;
+        color: $black;
+    }
+    .txt-mod {
+        text-align: center;
+        color: $black;
+        font-family: 'Raleway';
+    }
+    .img-mod {
+        margin-top: 5%;
+        padding-left: 50px;
+    }
+}
