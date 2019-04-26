@@ -5,13 +5,15 @@ $light-grey: #b3b3b3;
 $light-grey-2: #e6e6e6;
 $goldish: #FFF4CA;
 $white: #F3F3F3;
+$orange: #FF9900;
 
-.img-gallery-options {
+.gallery {
     padding: 1rem;
     
     #wellsgreen-img {
         background: url('https://res.cloudinary.com/hsi/image/upload/v1554516725/BCKC/Wellsgreen/5634_Wellsgreen_Place_BCKC_COJP_07.jpg') center no-repeat;
         box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+        border-radius: 12px;
         display: flex;
         background-size: cover;
         height: 580px;
@@ -23,6 +25,7 @@ $white: #F3F3F3;
     #carol-img {
         background: url('https://res.cloudinary.com/hsi/image/upload/v1554514657/BCKC/Carol/Carol--004-resized.jpg') center no-repeat;
         box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+        border-radius: 12px;
         display: flex;
         background-size: cover;
         height: 580px;
@@ -89,6 +92,7 @@ $white: #F3F3F3;
     #norbury-img {
         background: url('https://res.cloudinary.com/hsi/image/upload/v1554515860/BCKC/Norbury/04.jpg') center no-repeat;
         box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+        border-radius: 12px;
         display: flex;
         background-size: cover;
         height: 580px;
@@ -98,9 +102,10 @@ $white: #F3F3F3;
     }
     #btn-popup-northvan {
         background:transparent;
+        border-radius: 12px;
         font-size: 2.5em;
         font-weight: bold;
-        font-family: "Raleway";
+        font-family: "Cinzel";
         letter-spacing: 1rem;
         text-decoration: none;
         color: $goldish;
@@ -126,7 +131,7 @@ $white: #F3F3F3;
         background:transparent;
         font-size: 2.5em;
         font-weight: bold;
-        font-family: "Raleway";
+        font-family: "Cinzel";
         letter-spacing: 1rem;
         text-decoration: none;
         color: $goldish;
@@ -134,6 +139,7 @@ $white: #F3F3F3;
         text-align: center;
         padding: 10px;
         border: 4px solid $white;
+        border-radius: 12px;
         &:hover {
             transition: all 0.8s ease;
             background: rgba(0, 0, 0, 0.6);
