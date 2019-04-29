@@ -1,0 +1,32 @@
+.form-mod {
+    .form-hdr {
+        color: $orange;
+        font-family: 'Cinzel';
+        font-size: 3rem;
+        border-bottom: 4px double #b3b3b3;
+        text-align: center;
+    } 
+    #cnt-lst {
+        width: 350px;
+        li {
+            font-size: 1rem;
+            list-style: none;
+            font-family:"Raleway";
+            text-align: center;
+            margin-left: -2rem;
+            padding-top: 2px;
+        }
+    }
+    #hrs-lst {
+        width: 340px;
+        li {
+            font-size: 1rem;
+            list-style: none;
+            font-family:"Raleway";
+            margin-left: -2rem;
+            padding-top: 2px;
+            text-align: center;
+        }
+    }
+
+}

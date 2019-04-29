@@ -1,8 +1,9 @@
 // PARTIALS //
-@import "../scss/partials/gallery";
 @import "../scss/partials/home";
 @import "../scss/partials/about";
 @import "../scss/partials/gallery";
+@import "../scss/partials/contact";
+@import "../scss/partials/services";
 
 
 // COLOR VARIABLES //
@@ -73,6 +74,7 @@ $prefix:'-moz-',
 
 body {
     @include fadeIn(1s);
+
 }
 
 

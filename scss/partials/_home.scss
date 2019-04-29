@@ -70,8 +70,8 @@ $white: #F3F3F3;
 }
 
 .carousel-cell {
-    width: 90%;
-    height: 560px;
+    width: 80%;
+    height: 580px;
     /* flex-box, center image in cell */
     display: -webkit-box;
     display: -webkit-flex;
@@ -149,6 +149,11 @@ $white: #F3F3F3;
 }
 
 // FOOTBAR \\
+.ftr-mod {
+    height: 75px;
+    margin-top: 2px;
 #brnd-hdr-ftr {
     font-family: 'Cinzel';
 }
+}
+

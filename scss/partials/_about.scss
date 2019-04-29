@@ -1,6 +1,6 @@
 // COLOR VARIABLES \\
 $black: #2A2827;
-
+$light-grey: #b3b3b3;
 .about-us {
     #abt-us-hdg {
         border-bottom:6px double $light-grey;
@@ -18,4 +18,11 @@ $black: #2A2827;
         margin-top: 5%;
         padding-left: 50px;
     }
+}
+
+.ftr-mod {
+    height: 80px;
+#brnd-hdr-ftr {
+    font-family: 'Cinzel';
+}
 }
