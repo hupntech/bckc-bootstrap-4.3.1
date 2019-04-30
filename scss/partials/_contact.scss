@@ -28,5 +28,23 @@
             text-align: center;
         }
     }
+    .vndr-lnks {
+        .img-thumbnail {
+            border:none;
+        }
+        #ckca-img {
+            // margin-top: rem;
+            height: 90px;
+        }
+        #f1-img {
+            width: 142px;
+            height: 45px;
+            margin-top: 2rem;
+        }
+        #houzz-lnk {
+            width: 90px;
+        }
+    }
+    
 
 }
