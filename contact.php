@@ -4,7 +4,18 @@
 THIS FILE USES PHPMAILER INSTEAD OF THE PHP MAIL() FUNCTION
 */
 
-require '/assets/PHPMailer-master/PHPMailerAutoload.php';
+/* Namespace alias. */
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
+// Load Composer's autoloader
+require 'assets/vendor/autoload.php';
+
+/* Exception class. */
+require 'assets/vendor/phpmailer/phpmailer/src/Exception.php';
+
+/* The main PHPMailer class. */
+require 'assets/vendor/phpmailer/phpmailer/src/PHPMailer.php';
 
 /*
 CONFIGURATIONS
@@ -38,10 +49,9 @@ $errorMessage = 'There was an error while submitting the form. Please try again 
 // if you are not debugging and don't need error reporting, turn this off by error_reporting(0);
 error_reporting(E_ALL & ~E_NOTICE);
 
-try
-{
+try {
 
-    if(count($_POST) == 0) throw new \Exception('Form is empty');
+    if (count($_POST) == 0) throw new \Exception('Form is empty');
 
     $emailTextHtml = "<h1>You have a new message from your contact form</h1><hr>";
     $emailTextHtml .= "<table>";
@@ -69,21 +79,20 @@ try
     if (!$mail->send()) {
         throw new \Exception('I could not send the email.' . $mail->ErrorInfo);
     }
-    
+
     // All the neccessary headers for the email.
-    $headers = array('Content-Type: text/plain; charset="UTF-8";',
+    $headers = array(
+        'Content-Type: text/plain; charset="UTF-8";',
         'From: ' . $from,
         'Reply-To: ' . $from,
         'Return-Path: ' . $from,
     );
-    
+
     // Send email
     mail($sendTo, $subject, $emailText, implode("\n", $headers));
 
     $responseArray = array('type' => 'success', 'message' => $okMessage);
-}
-catch (\Exception $e)
-{
+} catch (\Exception $e) {
     $responseArray = array('type' => 'danger', 'message' => $errorMessage);
 }
 
