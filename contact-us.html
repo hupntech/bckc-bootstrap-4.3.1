@@ -21,12 +21,7 @@
 
     <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="stylesheet" href="assets/css/vendor/flickity.min.css">
-    <link rel="stylesheet" href="assets/css/vendor/animate.css">
-    <link rel="stylesheet" href="assets/css/vendor/magnific-popup.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/site.css">
 
@@ -46,13 +41,14 @@
     <header>
         <div class="jumbotron jumbotron-fluid mb-0">
             <div class="container">
-                <div class="row justify-content-md-center">
-                    <div class="col col-lg-2 pr-2">
+                <div class="row justify-content-md-center" id="brnd-div">
+                    <div class="col-xs-2 col-sm-2 col-lg-2 pr-2">
                         <a href="http://bestchoicekitchencabinets.ca/">
-                            <img class="brnd-img" src="assets/images/logo/bckc-tp.png" alt="Best Choice Kitchen Cabinet">
+                            <img class="brnd-img" src="assets/images/logo/bckc-tp.png"
+                                alt="Best Choice Kitchen Cabinet">
                         </a>
                     </div>
-                    <div class="col col-lg-10 mt-4">
+                    <div class="col-xs-4 col-lg-10 mt-4">
                         <h1 class="display-4 ml-n3" id="brnd-hdr">Best Choice Kitchen Cabinets</h1>
                     </div>
                 </div>
@@ -85,10 +81,10 @@
     <main class="form-mod">
         <div class="container pt-5">
             <!-- MAP EMBED -->
-            <div class="d-flex col-sm-12 justify-content-between">
+            <div class="d-xs-flex d-sm-flex col-xs-6 col-sm-12 col-md-12 justify-content-between">
                 <iframe class="rounded" width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=8528%20123%20Street&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                 <div class="d-flex justify-content-center align-self-start flex-column">
-                    <div class="col-sm-12 mb-5">
+                    <div class="col-xs-6 col-sm-12 mb-5">
                         <h1 class="form-hdr">
                             CONTACT
                         </h1>
@@ -190,15 +186,15 @@
                         </form>
 
                     </div>
-                    <div class="col-md-12 mt-4 d-flex flex-row justify-content-between vndr-lnks">
+                    <div class="mt-4 flex-sm-column vndr-lnks">
                         <a id="houzz-lnk" href="https://www.houzz.com/pro/bestchoicekitchencabinets/__public" target="_blank">
-                            <img class="img-thumbnail" src="assets/images/vendor/badge_44_7@2x.png" alt="Houzz">
+                            <img class="img-thumbnail" id="houzz-img" src="assets/images/vendor/badge_44_7@2x.png" alt="Houzz">
                         </a>
-                        <img class="img-thumbnail" src="assets/images/vendor/NKBAlogo_BritColumbia_HiRes_color-edit.jpg" alt="NKBA">
+                        <img class="img-thumbnail" id="nkba-img" src="assets/images/vendor/NKBAlogo_BritColumbia_HiRes_color-edit.jpg" alt="NKBA">
                         <img class="img-thumbnail" id="ckca-img" src="assets/images/vendor/CKCA Logo.jpg" alt="CKCA">
                         <img class="img-thumbnail" id="f1-img" src="assets/images/vendor/f1-141x28.gif" alt="WorkSafe">
-                        <a href="https://www.bbb.org/ca/bc/surrey/profile/cabinets/best-choice-kitchen-cabinets-0037-1276700" target="_blank">
-                            <img src="assets/images/vendor/f3.png" alt="BBB">
+                        <a id="bbb-lnk" href="https://www.bbb.org/ca/bc/surrey/profile/cabinets/best-choice-kitchen-cabinets-0037-1276700" target="_blank">
+                            <img id="bbb-img" src="assets/images/vendor/f3.png" alt="BBB">
                         </a>
                     </div>
                 </div>

@@ -16,18 +16,579 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
+@media (min-width: 375px) {
+    // HOME PAGE \\
+    body {
+        width: 375px;
+    }
+    .brnd-img {
+        display: column;
+        margin-left: 35%;
+        width: 90px !important;
+        height: 90px !important;
+        
+    }
+    #brnd-hdr {
+        font-size: 2rem;
+        margin-left: 0 !important;
+        margin-top: -10px;
+        text-align:center;
+    }
+    .carousel-cell {
+        width: 100%;
+    }
+
+    // SERVICES PAGE \\
+    .services {
+        h4 {
+            font-size: 1.8rem;
+        }
+    }
+
+    // GALLLERY \\
+    .gallery {
+        .ml-2 {
+        margin-left: -15px !important;
+        }
+        #col-img-div {
+            padding-top: 1.5rem;
+        }
+        #wellsgreen-img,
+        #carol-img,
+        #langley-img,
+        #epping-img,
+        #keith-img,
+        #willoughby-img,
+        #northvan-img,
+        #norbury-img, {
+            width: 330px;
+            height: 250px;
+            padding: 1rem;
+        }
+        #btn-popup-carol,
+        #btn-popup-epping,
+        #btn-popup-keith,
+        #btn-popup-langley,
+        #btn-popup-wellsgreen,
+        #btn-popup-willoughby,
+        #btn-popup-norbury, {
+            width: 290px;
+            font-size: 1.2rem;
+        }
+        #btn-popup-northvan {
+            width: 290px;
+            font-size: 1.2rem;
+        }
+    }
+
+    // CONTACT US PAGE \\
+    .form-mod {
+        iframe {
+            width: 320px;
+        }
+    #cnt-lst {
+        li {
+            margin-left: -32%;
+        }
+    }
+    #hrs-lst {
+            margin-left: -15%;
+    }
+    }
+    .vndr-lnks {
+        width: 375px;
+        padding: 10px;
+        #houzz-img {
+            padding-right: 15px;
+        }
+        #nkba-img {
+            padding-left: 15px;
+        }
+        #ckca-img {
+            padding: 10px 0px 10px 22%;
+        }
+        #bbb-img {
+            padding-top: 10px;
+            padding-left: 3rem;
+        }
+    }
+    .ftr-mod {
+        #brnd-hdr-ftr {
+            width: 375px;
+        }
+    }
     
 }
 
+@media (min-width: 425px) {
+
+    // HOME PAGE \\
+
+    body {
+        width: 425px;
+    }
+    .brnd-img {
+        display: column;
+        margin-left: 8rem;
+        width: 120px !important;
+        height: 120px !important;
+
+    }
+
+
+    #brnd-hdr {
+        font-size: 2rem;
+        margin-left: 0 !important;
+        margin-top: -10px;
+        text-align: center;
+    }
+
+    .carousel-cell {
+        width: 100%;
+    }
+
+    // SERVICES PAGE \\
+    .services {
+        h4 {
+            font-size: 1.8rem;
+        }
+    }
+
+    // GALLLERY \\
+    .gallery {
+        .ml-2 {
+            margin-left: -15px !important;
+        }
+
+        #col-img-div {
+            padding-top: 1.5rem;
+        }
+
+        #wellsgreen-img,
+        #carol-img,
+        #langley-img,
+        #epping-img,
+        #keith-img,
+        #willoughby-img,
+        #northvan-img,
+        #norbury-img,
+            {
+            width: 400px;
+            height: 250px;
+            padding: 1rem;
+        }
+
+        #btn-popup-carol,
+        #btn-popup-epping,
+        #btn-popup-keith,
+        #btn-popup-langley,
+        #btn-popup-wellsgreen,
+        #btn-popup-willoughby,
+        #btn-popup-norbury,
+            {
+            width: 290px;
+            font-size: 1.2rem;
+        }
+
+        #btn-popup-northvan {
+            width: 290px;
+            font-size: 1.2rem;
+        }
+    }
+
+    // CONTACT US PAGE \\
+    .form-mod {
+        iframe {
+            width: 390px;
+        }
+
+        #cnt-lst {
+            li {
+                margin-left: -32%;
+            }
+        }
+
+        #hrs-lst {
+            margin-left: -5%;
+        }
+    }
+
+    .vndr-lnks {
+        width: 420px;
+        padding: 10px;
+
+        #nkba-img {
+            padding-left: 4rem;
+        }
+
+        #ckca-img {
+            padding: 10px 0px 10px 26%;
+        }
+
+        #bbb-img {
+            padding-left: 5rem;
+        }
+    }
+    .ftr-mod {
+        #brnd-hdr-ftr {
+            width: 420px;
+        }
+    }
+
+}
+
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+     
+    // HOME PAGE \\
+    body {
+        width: 768px;
+    }
+     .brnd-img {
+        //  display: row;
+         margin-left: -1rem;
+         width: 120px !important;
+         height: 120px !important;
+     }
+
+     #brnd-hdr {
+         font-size: 2rem;
+        //  margin-left: 0 !important;
+         margin-top: -1rem;
+         text-align: center;
+     }
+
+     .carousel-cell {
+         width: 100%;
+     }
+
+     // SERVICES PAGE \\
+     .services {
+         h4 {
+             font-size: 1.8rem;
+         }
+     }
+
+     // GALLLERY \\
+     .gallery {
+         .ml-2 {
+             margin-left: -15px !important;
+         }
+
+         #col-img-div {
+             padding-left: 2.2rem;
+            margin-top: -1.3rem;
+         }
+
+         #wellsgreen-img,
+         #carol-img,
+         #langley-img,
+         #epping-img,
+         #keith-img,
+         #willoughby-img,
+         #northvan-img,
+         #norbury-img,
+             {
+             width: 350px;
+             height: 250px;
+            //  padding-top: -2rem;
+             margin-top: 0;
+         }
+
+         #btn-popup-carol,
+         #btn-popup-epping,
+         #btn-popup-keith,
+         #btn-popup-langley,
+         #btn-popup-wellsgreen,
+         #btn-popup-willoughby,
+         #btn-popup-norbury,
+             {
+             width: 290px;
+             font-size: 1.2rem;
+         }
+
+         #btn-popup-northvan {
+             width: 290px;
+             font-size: 1.2rem;
+         }
+     }
+
+     // CONTACT US PAGE \\
+     .form-mod {
+         iframe {
+             width: 420px;
+         }
+
+         #cnt-lst {
+             li {
+                 margin-left: -15%;
+             }
+         }
+
+         #hrs-lst {
+             margin-left: 5px;
+         }
+     }
+
+     .vndr-lnks {
+         display: flex;
+         flex-direction: row !important;
+         justify-content: space-between;
+         width: 780px;
+         padding: 10px;
+
+         #nkba-img {
+             padding-left: 0rem;
+             width: 138px;
+         }
+
+         #ckca-img {
+             padding: 0px;
+             width: 140px;
+             height: 140px;
+         }
+
+         #bbb-img {
+             padding-left: 0;
+             width: 108px;
+             height: 108px;
+         }
+     }
+
+     .ftr-mod {
+         #brnd-hdr-ftr {
+             width: 768px;
+         }
+     }
+}
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {}
+@media (min-width: 1024px) {
+    // HOME PAGE \\
+    body {
+        width: 1024px;
+    }
+
+    .brnd-img {
+        margin-left: 1rem;
+    }
+
+    #brnd-hdr {
+        font-size: 3rem;
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    // GALLERY \\
+    .gallery {
+        #wellsgreen-img,
+        #carol-img,
+        #langley-img,
+        #epping-img,
+        #keith-img,
+        #willoughby-img,
+        #northvan-img,
+        #norbury-img,
+            {
+            width: 100%;
+            height: 550px;
+            margin-top: 0;
+        }
+
+        #btn-popup-carol,
+        #btn-popup-epping,
+        #btn-popup-keith,
+        #btn-popup-langley,
+        #btn-popup-wellsgreen,
+        #btn-popup-willoughby,
+        #btn-popup-norbury,
+            {
+            // width: 290px;
+            // font-size: 1.2rem;
+        }
+
+        #btn-popup-northvan {
+            width: 290px;
+            font-size: 1.2rem;
+        }
+    }
+
+    // CONTACT US PAGE \\
+    .form-mod {
+        iframe {
+            width: 520px;
+        }
+    }
+    .vndr-lnks {
+        display: flex;
+        flex-direction: row !important;
+        justify-content: space-between;
+        width: 1024px;
+        padding: 10px;
+
+        #nkba-img {
+            padding-left: 0rem;
+            width: 160px;
+        }
+
+        #ckca-img {
+            padding: 0px;
+            width: 160px;
+            // height: 140px;
+        }
+
+        #bbb-img {
+            padding-left: 0;
+            width: 108px;
+            height: 108px;
+        }
+    }
+
+    // FOOTER \\
+    .ftr-mod {
+        #brnd-hdr-ftr {
+            width: 650px;
+        }
+    }
+    
+}
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
+@media (min-width: 1400px) {
+    body {
+        width:1440px;
+    }
+    #brnd-hdr {
+        font-size: 3.5rem;
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    // GALLERY \\
+    .gallery {
+        #col-img-div {
+            padding-left: 2.2rem;
+            margin-top: -1.3rem;
+        }
+        #wellsgreen-img,
+        #carol-img,
+        #langley-img,
+        #epping-img,
+        #keith-img,
+        #willoughby-img,
+        #northvan-img,
+        #norbury-img,
+            {
+            width: 700px;
+            height: 650px;
+            margin-top: 0;
+        }
+        #btn-popup-carol,
+        #btn-popup-epping,
+        #btn-popup-keith,
+        #btn-popup-langley,
+        #btn-popup-wellsgreen,
+        #btn-popup-willoughby,
+        #btn-popup-norbury,
+            {
+            width: 390px;
+            font-size: 2rem;
+        }
+        #btn-popup-northvan {
+            width: 390px;
+            font-size: 2rem;
+        }
+    }
+
+    // CONTACT US PAGE \\
+    .form-mod {
+        iframe {
+            width: 820px;
+        }
+
+        #cnt-lst {
+            li {
+                margin-left: -15%;
+            }
+        }
+
+        #hrs-lst {
+            margin-left: 5px;
+        }
+    }
+
+    .vndr-lnks {
+        display: flex;
+        flex-direction: row !important;
+        justify-content: space-between;
+        width: 1440px;
+        padding: 10px;
+
+        #nkba-img {
+            padding-left: 0rem;
+            width: 138px;
+        }
+
+        #ckca-img {
+            padding: 0px;
+            width: 140px;
+            height: 140px;
+        }
+
+        #bbb-img {
+            padding-left: 0;
+            width: 108px;
+            height: 108px;
+        }
+    }
+
+    // FOOTER \\
+    .ftr-mod {
+        #brnd-hdr-ftr {
+            width: 650px;
+        }
+    }
+}
+
+@media (min-width: 2560px) {
+    body {
+        width: 2560px;
+    }
+
+  // GALLERY \\
+  .gallery {
+
+      #wellsgreen-img,
+      #carol-img,
+      #langley-img,
+      #epping-img,
+      #keith-img,
+      #willoughby-img,
+      #northvan-img,
+      #norbury-img,
+          {
+          width: 850px;
+          height: 550px;
+          margin-top: 0;
+      }
+
+      #btn-popup-carol,
+      #btn-popup-epping,
+      #btn-popup-keith,
+      #btn-popup-langley,
+      #btn-popup-wellsgreen,
+      #btn-popup-willoughby,
+      #btn-popup-norbury,
+          {
+          width: 290px;
+          font-size: 1.2rem;
+      }
+
+      #btn-popup-northvan {
+          width: 290px;
+          font-size: 1.2rem;
+      }
+  }
 
 
 

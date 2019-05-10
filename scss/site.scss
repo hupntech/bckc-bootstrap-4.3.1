@@ -75,6 +75,7 @@ $prefix:'-moz-',
 
 body {
     @include fadeIn(1s);
+    width: 100%;
 
 }
 
