@@ -114,7 +114,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     }
     .ftr-mod {
         #brnd-hdr-ftr {
-            width: 375px;
+            width: 400px;
         }
     }
     
@@ -589,7 +589,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
           font-size: 1.2rem;
       }
   }
-
+}
 
 
 /*
@@ -597,5 +597,3 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 Custom media queries
 */
 
-/* Set width to make card deck cards 100% width */
-@media (max-width: 950px) {}
