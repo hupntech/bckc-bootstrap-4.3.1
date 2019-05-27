@@ -63,7 +63,7 @@ try {
         }
     }
     $emailTextHtml .= "</table><hr>";
-    $emailTextHtml .= "<p>Have a nice day,<br>Regards,<br>Best Home Kitchen Cabinets</p>";
+    $emailTextHtml .= "<p>Have a nice day,<br>Regards,<br>Best Choice Kitchen Cabinets</p>";
 
     $mail = new PHPMailer;
 

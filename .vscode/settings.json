@@ -3,5 +3,26 @@
         "activityBar.background": "#083141",
         "titleBar.activeBackground": "#0C455B",
         "titleBar.activeForeground": "#F4FBFE"
-    }
+    },
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "compressed",
+            "extensionName": ".min.css",
+            "savePath": "../../bckc-bootstrap-4.3.1/assets/css",
+        }
+    ],
+    // Mainly for static files
+    "liveServer.settings.useWebExt": true,
+    // This means that you change your real URL (current PHP url) 
+    // to another URL (which Live Sever starts).
+    "liveServer.settings.proxy": {
+        "enable": true, //   i. enabled
+        "baseUri": "../../bckc-bootstrap-4.3.1", //  ii. workspace
+        "proxyUri": "http://localhost:80/" // iii. actual address
+    },
+    "liveSassCompile.settings.generateMap": false,
+    "liveSassCompile.settings.showOutputWindow": false,
 }
